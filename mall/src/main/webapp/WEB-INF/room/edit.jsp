@@ -17,10 +17,10 @@ ${msg }
 <mall:errors path="product.*"/>
 <form action="change" method="post">
 <table>
-<tr><td><input type="number" name="pid" value="${one.getPid() }"></td></tr>
-<tr><td><input type="text" name="pname" value="${one.getPname() }"></td></tr>
-<tr><td><input type="number" name="quantity" value="${one.getQuantity() }"></td></tr>
-<tr><td><input type="number" name="ppp" value="${one.getPpp() }"></td></tr>
+<tr><td><input type="number" name="pid" value="${one.getPid() }" required></td></tr>
+<tr><td><input type="text" name="pname" value="${one.getPname() }" required></td></tr>
+<tr><td><input type="number" name="quantity" value="${one.getQuantity() }" required></td></tr>
+<tr><td><input type="number" name="ppp" value="${one.getPpp() }" required></td></tr>
 <tr>
 <td><input type="submit" value="Update to Stock"></td>
 <td><input type="reset" value="Clear"></td>
